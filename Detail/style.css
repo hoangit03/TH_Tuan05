@@ -8,6 +8,76 @@
 
 body {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#herder__left {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+}
+
+#herder__left div:last-child {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+#herder__left div:last-child a {
+    text-decoration: none;
+}
+
+#herder__left div:last-child a:link {
+    text-decoration: none;
+}
+
+#herder__left div:last-child a:visited {
+    text-decoration: none;
+}
+
+#herder__right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    margin-right: 15px;
+}
+
+#herder__right div {
+    display: flex;
+    width: 65%;
+    height: 50%;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#herder__right div input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#herder__right div label {
+    width: 8%;
+    display: flex;
     justify-content: center;
-    margin: 0;
+    align-items: center;
+}
+
+#herder__right div i {
+    position: relative;
+    height: 50%;
+}
+
+#context {
+    width: 75%;
+}
+
+#danhgia {
+    display: flex;
+    align-items: center;
 }
