@@ -81,3 +81,21 @@ body {
     display: flex;
     align-items: center;
 }
+
+#img {
+    display: flex;
+}
+
+#img #img_chinh {
+    width: 50%;
+}
+
+#img #img_phu {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img #img_phu div {
+    width: 50%;
+}
