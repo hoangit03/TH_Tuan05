@@ -1,6 +1,5 @@
 #herder {
-    background-color: orange;
-    width: 90%;
+    width: 77%;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -27,6 +26,7 @@ body {
 
 #herder__left div:last-child a {
     text-decoration: none;
+    color: rgba(0, 0, 0,0.8);
 }
 
 #herder__left div:last-child a:link {
@@ -48,7 +48,7 @@ body {
 #herder__right div {
     display: flex;
     width: 65%;
-    height: 50%;
+    height: 60%;
     position: relative;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -59,6 +59,7 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 #herder__right div label {
@@ -71,19 +72,41 @@ body {
 #herder__right div i {
     position: relative;
     height: 50%;
+    left:5px
 }
 
 #context {
-    width: 75%;
+    width: 64%;
+    margin-top: 60px;
 }
 
 #danhgia {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+#danhgia #left,#right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%;
+}
+#danhgia #left h3{
+    margin: 0;
 }
 
 #img {
     display: flex;
+}
+#danhgia #right div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+#danhgia #right{
+    margin-right:5% ;
 }
 
 #img #img_chinh {
@@ -98,4 +121,47 @@ body {
 
 #img #img_phu div {
     width: 50%;
+}
+
+
+#infomation__left {
+    width: 65%;
+}
+#infomation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#infomation__left #top h1{
+    margin-top: 0;
+    
+}
+
+#infomation__left #bottom{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#infomation__left #bottom #bottom__left #bottom__right{
+    width: 40%;
+}
+
+#bottom #bottom__left div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#bottom #bottom__right div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#make{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128,0.5);
 }
