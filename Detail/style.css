@@ -158,6 +158,11 @@ body {
     margin-bottom: 10px;
 }
 
+#bottom span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-size: 13.5px;
+}
 #bottom #bottom__right div{
     display: flex;
     align-items: center;
@@ -241,4 +246,44 @@ body {
     border: 1.5px solid #42cbf5;
     color:#42cbf5;
     border-radius: 5px;
+}
+
+#review {
+    margin-top: 3%;
+    border-bottom: 1px solid rgb(128, 128, 128,0.5);
+}
+#review #review__title{
+    display: flex;
+    justify-content: space-between;
+}
+#review #review__title div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#review #review__title div:first-child{
+    width: 20%;
+}
+#review #review__title div:last-child{
+    width: 11%;
+}
+#review #review__title div:last-child a{
+    text-decoration: none;
+}
+
+
+#review__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#review__content > div{
+    width: 45%;
+    margin-bottom: 50px;
+    
+}
+#review__content img:first-child{
+    float: left;
+    margin-right: 10px;
 }
