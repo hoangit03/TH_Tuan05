@@ -3,6 +3,7 @@
     height: 60px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(146, 146, 146,0.4);
 }
 
 body {
@@ -76,7 +77,7 @@ body {
 }
 
 #context {
-    width: 64%;
+    width: 63%;
     margin-top: 60px;
 }
 
@@ -106,7 +107,7 @@ body {
     justify-content: space-around;
 }
 #danhgia #right{
-    margin-right:5% ;
+    margin-right:1% ;
 }
 
 #img #img_chinh {
@@ -117,6 +118,7 @@ body {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
 }
 
 #img #img_phu div {
@@ -131,6 +133,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    height: 390px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(128, 128, 128,0.5);
 }
 
 #infomation__left #top h1{
@@ -139,7 +144,7 @@ body {
 }
 
 #infomation__left #bottom{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
 }
@@ -160,8 +165,80 @@ body {
 }
 
 #make{
-    width: 30%;
-    border: 1px solid gray;
+    width: 28%;
     border-radius: 5px;
-    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128,0.5);
+    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128,0.2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#make #make_top{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: start;
+}
+#make #make_right{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 10px;
+}
+#make h1{
+    text-align: right;
+    color: #42cbf5;
+}
+
+#make #make_top select{
+    height: 20%;
+    margin-bottom:4% ;
+    border: none;
+    background-color: rgba(128, 128, 128,0.1);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#make_right div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+#make_right div:first-child p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 158, 158);
+    font-size: 15.5px;
+}
+#make_right div:first-child p:last-child{
+    font-weight: bold;
+}
+
+#make_right div:last-child{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+#make_right div:last-child button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17.8px;
+}
+#make_right div:last-child button img{
+    width: 8%;
+    margin-right: 8px;
+}
+#make_right div:last-child button:first-child{
+    margin-bottom: 15px;
+    border: none;
+    background-color: #42cbf5;
+    color: white;
+    border-radius: 5px;
+}
+
+#make_right div:last-child button:last-child{
+    background-color: white;
+    border: 1.5px solid #42cbf5;
+    color:#42cbf5;
+    border-radius: 5px;
 }
