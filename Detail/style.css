@@ -15,7 +15,7 @@ body {
 #herder__left {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 50%;
     align-items: center;
 }
 
@@ -23,11 +23,19 @@ body {
     display: flex;
     width: 70%;
     justify-content: space-between;
+    height: 100%;
 }
 
 #herder__left div:last-child a {
     text-decoration: none;
     color: rgba(0, 0, 0,0.8);
+    display: flex;
+    align-items: center;
+}
+#herder__left div:last-child a:hover{
+    font-weight: bold;
+    color:#42cbf5;
+    border-bottom: 1px solid #42cbf5;
 }
 
 #herder__left div:last-child a:link {
@@ -105,6 +113,7 @@ body {
     align-items: center;
     width: 50%;
     justify-content: space-around;
+    color: #524f4f;
 }
 #danhgia #right{
     margin-right:1% ;
@@ -147,6 +156,7 @@ body {
     width: 45%;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 #infomation__left #bottom #bottom__left #bottom__right{
     width: 40%;
@@ -370,7 +380,7 @@ body {
 
 #subcribe{
     display: flex;
-    height: 14%;
+    height: 16%;
     width: 87%;
     background-color: rgb(128, 128, 128,0.2);
     border-radius: 5px;
@@ -408,7 +418,7 @@ body {
 
 #foot__bottom div{
     width: 35%;
-    height: 10%;
+    height: 50%;
 }
 #foot__bottom{
     width: 80%;
@@ -420,6 +430,7 @@ body {
 }
 #foot__bottom__center{
     width: 50%;
+    color: gray;
 }
 #foot__bottom ul{
     display: flex;
@@ -429,7 +440,34 @@ body {
     padding: 0;
 }
 
+#foot__bottom #select__langue{
+    display: flex;
+}
+#foot__bottom select{
+    width: 30%;
+    border: none;
+    background-color: rgba(179, 179, 179,0.3);
+    border-radius: 3px;
+    padding-right: 5px;
+    outline: none !important;
+    color: gray;
+}
 #icon{
     text-align: right;
-
+    font-size: 25px;
+}
+#icon i{
+    margin-left: 10px;
+}
+#icon a:first-child{
+    color: #42cbf5;
+}
+#icon a:nth-child(2){
+    color: blue;
+}
+#icon a:nth-child(3){
+    color: rgb(6, 6, 142);
+}
+#icon a:last-child{
+    color: red;
 }
